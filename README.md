@@ -1,4 +1,4 @@
-# iot-hub-dps-symetric-key
+# iot-hub-dps-symmetric-key
 The idea is to use Azure DPS to provision iot-devices at scale using group enrollment and connect them to an iot-hub. These iot-devices then send telemetry data to the iot-hub. Some function apps should listen to those events and invoke Direct Methods on those iot-devices. I am using .net 6 and Autofac for DI.
 
 <img src="iot-hub-dps.jpg" />
